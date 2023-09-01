@@ -8,7 +8,7 @@ rm(list = ls())
 
 ### LIBRARIES
 library(tidyverse)
-library(SparseBCF) # OOB Sp. Bayesian Causal Forests
+library(SparseBCFTEST) # OOB Sp. Bayesian Causal Forests
 library(BART) # Main package including all the version of BART
 library(nnet)
 library(rpart)
