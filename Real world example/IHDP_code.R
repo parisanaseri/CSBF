@@ -2,13 +2,14 @@
 # Effects of early educational and family support on cognitive function of low birth weight preterm infants  
 # original paper DOI: https://doi.org/10.1056/NEJM199610103351501
 ##################################################
-
+remotes::install_github("parisanaseri/CSBF")
+remove.packages(SparseBCF)
 rm(list = ls())
 
 
 ### LIBRARIES
 library(tidyverse)
-library(SparseBCFTEST) # OOB Sp. Bayesian Causal Forests
+library(SparseBCF) # OOB Sp. Bayesian Causal Forests
 library(BART) # Main package including all the version of BART
 library(nnet)
 library(rpart)
