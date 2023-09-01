@@ -1,3 +1,3 @@
-useDynLib(SparseBCF)
-export(SparseBCF)
+useDynLib(SparseBCFTEST)
+export(SparseBCFTEST)
 importFrom("stats", "approxfun", "lm", "qchisq", "quantile", "sd")
