@@ -1,4 +1,4 @@
-Package: SparseBCF
+Package: SparseBCF_test
 Type: Package
 Title: Sparse Bayesian Causal Forest for Heterogeneous Treatment Effects Estimation
 Version: 1.0
