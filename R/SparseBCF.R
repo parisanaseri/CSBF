@@ -405,6 +405,7 @@ SparseBCF <-
            varcnt_tau = fitbcf$varcnt_mod,
            varprb_tau = fitbcf$varprb_mod,
            random_var_post = fitbcf$random_var_post
+           gamma_post = fitbcf$gamma_post
       )
     )
 
@@ -454,6 +455,7 @@ SparseBCF <-
            varcnt_tau = fitbcf$varcnt_mod,
            varprb_tau = fitbcf$varprb_mod,
            random_var_post = fitbcf$random_var_post
+           gamma_post = fitbcf$gamma_post
       )
     )
 
