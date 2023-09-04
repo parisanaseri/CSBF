@@ -348,7 +348,7 @@ SparseBCF <-
 
   fitbcf = cSparseBCF(yscale[perm], z[perm], t(x_c[perm,]), t(x_m[perm,,drop=FALSE]), t(x_m[1,,drop=FALSE]),
                       cutpoint_list_c, cutpoint_list_m,
-                      random_des = matrix(1),
+                      random_des = matrix(c(rep(1,2208)),1,2208)#matrix(1),
                       random_var = matrix(1),
                       random_var_ix = matrix(1),
                       random_var_df = 3,
